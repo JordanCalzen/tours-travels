@@ -13,6 +13,7 @@ import { Button } from "@/components/ui/button";
 import ServiceCard from "./service-card";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
+import { Separator } from "../ui/separator";
 
 const services = [
 	{
@@ -35,6 +36,12 @@ const services = [
 	},
 	{
 		title: "Wedding destinations",
+		description:
+			"Dolore ullamco voluptate duis est volupt exercitation officia ad qui nostrud adipisicing non.",
+		Icon: Cake,
+	},
+	{
+		title: "Meditation Points",
 		description:
 			"Dolore ullamco voluptate duis est volupt exercitation officia ad qui nostrud adipisicing non.",
 		Icon: Cake,
@@ -72,7 +79,12 @@ export default function ServicesSection() {
 			<div className="relative max-w-7xl mx-auto">
 				<div className="relative flex justify-between items-start mb-12">
 					<div className="max-w-2xl pb-16">
-						<h2 className="text-purple-600 font-medium mb-4">What we offer</h2>
+						<div className="flex items-center justify-start gap-4">
+							<div className="text-xl text-purple-600 font-medium">
+								What we offer
+							</div>
+							<Separator className="w-14  bg-purple-600" />
+						</div>
 						<h3 className="text-3xl md:text-4xl font-bold mb-4">
 							Discover all the destinations with us!
 						</h3>

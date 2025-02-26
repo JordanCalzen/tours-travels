@@ -1,9 +1,13 @@
+import TrendingTours from "@/components/frontend/carousel-tours";
+import FeaturesSection from "@/components/frontend/features-section";
 import Hero from "@/components/frontend/hrero";
 import MainNav from "@/components/frontend/main-nav";
+import PopularHotels from "@/components/frontend/popular-hotels";
 import ServicesSection from "@/components/frontend/services-section";
 import TopNav from "@/components/frontend/top-nav";
 import TravelGrid from "@/components/frontend/travel-grid";
 import TrustedPartner from "@/components/frontend/trusted-sec";
+import { Separator } from "@/components/ui/separator";
 import Image from "next/image";
 import React from "react";
 
@@ -32,11 +36,20 @@ export default function Home() {
 			</div>
 			<TrustedPartner />
 			<div className="container mx-auto px-4 py-8">
-				<h1 className="text-3xl font-bold text-center mb-8">
-					Choose your destinations
-				</h1>
+				<div className=" text-center  mb-5">
+					<h1 className="text-3xl font-bold text-center mb-4">
+						Choose your destinations
+					</h1>
+					<div className="flex items-center justify-center">
+						<Separator className="w-[15rem] block text-center bg-purple-600" />
+					</div>
+				</div>
+
 				<TravelGrid />
 				<ServicesSection />
+				<TrendingTours />
+				<PopularHotels />
+				<FeaturesSection />
 			</div>
 		</>
 	);

@@ -14,7 +14,7 @@ export default function MainNav() {
 		<nav
 			className={cn(
 				"text-white transition-all duration-300",
-				scrolled ? "bg-black/20 backdrop-blur-sm" : "bg-transparent"
+				scrolled ? "bg-purple-600 backdrop-blur-sm" : "bg-transparent"
 			)}
 		>
 			<div className="container mx-auto flex items-center justify-between py-4 px-4">

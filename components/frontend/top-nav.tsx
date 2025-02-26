@@ -14,7 +14,7 @@ export default function TopNav() {
 			<div
 				className={cn(
 					"hidden md:block text-white py-3 transition-all duration-300",
-					scrolled ? "bg-black/20 backdrop-blur-sm" : "bg-transparent"
+					scrolled ? "bg-purple-600 backdrop-blur-sm" : "bg-transparent"
 				)}
 			>
 				<div className="container mx-auto flex justify-between items-center text-sm">
