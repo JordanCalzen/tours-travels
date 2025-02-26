@@ -19,6 +19,23 @@
 .border-b-r {
 	border-bottom-right-radius: 25px;
 }
+@media (min-width: 320px) {
+	.screen-below320 {
+		top: 16rem;
+	}
+}
+
+@media (min-width: 438px) {
+	.screen-below438 {
+		top: 14rem;
+	}
+}
+
+@media (min-width: 598px) {
+	.screen-below598 {
+		top: 13rem;
+	}
+}
 
 @layer base {
 	:root {

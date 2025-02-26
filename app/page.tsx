@@ -1,5 +1,6 @@
 import Hero from "@/components/frontend/hrero";
 import MainNav from "@/components/frontend/main-nav";
+import ServicesSection from "@/components/frontend/services-section";
 import TopNav from "@/components/frontend/top-nav";
 import TravelGrid from "@/components/frontend/travel-grid";
 import TrustedPartner from "@/components/frontend/trusted-sec";
@@ -35,6 +36,7 @@ export default function Home() {
 					Choose your destinations
 				</h1>
 				<TravelGrid />
+				<ServicesSection />
 			</div>
 		</>
 	);
