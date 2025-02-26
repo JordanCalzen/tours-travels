@@ -12,6 +12,14 @@
 	font-style: italic;
 }
 
+.border-t-l {
+	border-top-left-radius: 25px;
+}
+
+.border-b-r {
+	border-bottom-right-radius: 25px;
+}
+
 @layer base {
 	:root {
 		--background: 0 0% 100%;
