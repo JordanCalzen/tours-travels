@@ -1,5 +1,6 @@
 import TrendingTours from "@/components/frontend/carousel-tours";
 import FeaturesSection from "@/components/frontend/features-section";
+import Footer from "@/components/frontend/footer";
 import Hero from "@/components/frontend/hrero";
 import MainNav from "@/components/frontend/main-nav";
 import PopularHotels from "@/components/frontend/popular-hotels";
@@ -50,6 +51,7 @@ export default function Home() {
 				<TrendingTours />
 				<PopularHotels />
 				<FeaturesSection />
+				<Footer />
 			</div>
 		</>
 	);
