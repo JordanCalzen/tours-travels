@@ -1,5 +1,3 @@
-import Image from "next/image";
-import { Play } from "lucide-react";
 import { Separator } from "../ui/separator";
 import VideoPreview from "./video-preview";
 import { Card } from "../ui/card";
