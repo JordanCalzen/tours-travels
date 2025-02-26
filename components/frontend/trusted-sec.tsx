@@ -41,15 +41,15 @@ export default function TrustedPartner() {
 					<div className="grid grid-cols-3 gap-4 pt-6">
 						<Card className="text-center">
 							<div className="text-3xl md:text-4xl font-bold">12K</div>
-							<div className="text-gray-600 text-sm mt-1">Happy Clients</div>
+							<div className="text-purple-600 text-sm mt-1">Happy Clients</div>
 						</Card>
 						<Card className="text-center">
 							<div className="text-3xl md:text-4xl font-bold">750+</div>
-							<div className="text-gray-600 text-sm mt-1">Projects Done</div>
+							<div className="text-purple-600 text-sm mt-1">Projects Done</div>
 						</Card>
 						<Card className="text-center p-2">
 							<div className="text-3xl md:text-4xl font-bold">100%</div>
-							<div className="text-gray-600 text-sm mt-1">Success Rate</div>
+							<div className="text-purple-600 text-sm mt-1">Success Rate</div>
 						</Card>
 					</div>
 				</div>

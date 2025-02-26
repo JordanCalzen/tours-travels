@@ -1,6 +1,7 @@
 import Hero from "@/components/frontend/hrero";
 import MainNav from "@/components/frontend/main-nav";
 import TopNav from "@/components/frontend/top-nav";
+import TravelGrid from "@/components/frontend/travel-grid";
 import TrustedPartner from "@/components/frontend/trusted-sec";
 import Image from "next/image";
 import React from "react";
@@ -29,6 +30,12 @@ export default function Home() {
 				</section>
 			</div>
 			<TrustedPartner />
+			<div className="container mx-auto px-4 py-8">
+				<h1 className="text-3xl font-bold text-center mb-8">
+					Choose your destinations
+				</h1>
+				<TravelGrid />
+			</div>
 		</>
 	);
 }
