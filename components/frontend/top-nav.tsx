@@ -57,22 +57,6 @@ export default function TopNav() {
 						</div>
 					</div>
 					<div className="flex items-center gap-4">
-						<div className="flex gap-4">
-							<Link
-								href="/login"
-								className="hover:text-purple-300 transition-colors"
-							>
-								Login
-							</Link>
-							<Separator orientation="vertical" className="h-5 bg-white/40" />
-							<Link
-								href="/signup"
-								className="hover:text-purple-300 transition-colors"
-							>
-								Sign up
-							</Link>
-							<Separator orientation="vertical" className="h-5 bg-white/40" />
-						</div>
 						<div className="flex items-center gap-4">
 							<button className="flex items-center gap-1 hover:text-purple-300 transition-colors">
 								English <ChevronDown className="w-4 h-4" />
