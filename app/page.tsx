@@ -17,7 +17,7 @@ export default function Home() {
 		<>
 			<div className="min-h-screen flex flex-col">
 				<section>
-					<div className="absolute inset-0">
+					<div className="absolute  inset-0">
 						<Image
 							src="/banner-three.png"
 							alt="Travel background"

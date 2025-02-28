@@ -46,6 +46,18 @@ const services = [
 			"Dolore ullamco voluptate duis est volupt exercitation officia ad qui nostrud adipisicing non.",
 		Icon: Cake,
 	},
+	{
+		title: "Meditation Points",
+		description:
+			"Dolore ullamco voluptate duis est volupt exercitation officia ad qui nostrud adipisicing non.",
+		Icon: Cake,
+	},
+	{
+		title: "Meditation Points",
+		description:
+			"Dolore ullamco voluptate duis est volupt exercitation officia ad qui nostrud adipisicing non.",
+		Icon: Cake,
+	},
 ];
 
 export default function ServicesSection() {
@@ -123,7 +135,7 @@ export default function ServicesSection() {
 						{services.map((service, index) => (
 							<div
 								key={index}
-								className="flex-[0_0_100%] min-w-0 sm:flex-[0_0_50%] lg:flex-[0_0_25%] pl-4 first:pl-0"
+								className="flex-[0_0_100%] min-w-0 sm:flex-[0_0_50%] lg:flex-[0_0_25%] pl-4 first:pl-4"
 							>
 								<ServiceCard
 									title={service.title}

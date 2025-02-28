@@ -279,7 +279,7 @@ export default function MainNav() {
 						className="text-white md:hidden"
 						onClick={() => setIsOpen(true)}
 					>
-						<UserCircle2 className="w-5 h-5" />
+						<UserCircle2 className="w-10 h-10" />
 						<span className="sr-only">User menu</span>
 					</Button>
 					<Button
@@ -290,18 +290,18 @@ export default function MainNav() {
 					>
 						Become a partner
 					</Button>
-					<Button
-						variant="ghost"
+					<Link
+						href={"/login"}
 						className="hidden md:inline-flex text-white hover:text-purple-300 transition-colors"
 					>
 						Login
-					</Button>
-					<Button
-						variant="ghost"
+					</Link>
+					<Link
+						href={"/signup"}
 						className="hidden md:inline-flex text-white hover:text-purple-300 transition-colors"
 					>
 						Sign Up
-					</Button>
+					</Link>
 
 					{/* Mobile Menu */}
 					<Sheet open={isOpen} onOpenChange={setIsOpen}>
@@ -311,7 +311,7 @@ export default function MainNav() {
 								size="icon"
 								className="md:hidden text-white"
 							>
-								<Menu className="w-6 h-6" />
+								<Menu className=" w-12 h-12" />
 								<span className="sr-only">Toggle menu</span>
 							</Button>
 						</SheetTrigger>
@@ -452,20 +452,18 @@ export default function MainNav() {
 											Contact
 										</Link>
 										<div className="flex flex-col gap-2 mb-4">
-											<Button
-												variant="ghost"
+											<Link
+												href={"/login"}
 												className="w-full justify-center text-white hover:text-purple-300 transition-colors"
-												onClick={() => setIsOpen(false)}
 											>
 												Login
-											</Button>
-											<Button
-												variant="ghost"
+											</Link>
+											<Link
+												href={"/signup"}
 												className="w-full justify-center text-white hover:text-purple-300 transition-colors"
-												onClick={() => setIsOpen(false)}
 											>
 												Sign Up
-											</Button>
+											</Link>
 										</div>
 									</div>
 								</div>

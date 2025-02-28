@@ -14,7 +14,7 @@ export default function FeatureCard({
 	isPurpleIcon = false,
 }: FeatureCardProps) {
 	return (
-		<div className="flex flex-col items-start sm:items-center sm:text-center">
+		<div className="flex flex-col blob items-start sm:items-center sm:text-center">
 			<div
 				className={`mb-4 ${
 					isPurpleIcon ? "bg-purple-600 p-4 rounded-full" : ""

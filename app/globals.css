@@ -12,13 +12,6 @@
 	font-style: italic;
 }
 
-.border-t-l {
-	border-top-left-radius: 25px;
-}
-
-.border-b-r {
-	border-bottom-right-radius: 25px;
-}
 @media (min-width: 320px) {
 	.screen-below320 {
 		top: 16rem;
@@ -35,6 +28,13 @@
 	.screen-below598 {
 		top: 13rem;
 	}
+}
+
+.blob {
+	width: 200px;
+	height: 200px;
+	background: linear-gradient(353deg, #64b8b5 9%, #fed6e3 68%);
+	border-radius: 25% 100% 22% 93% / 86% 38% 100% 33%;
 }
 
 @layer base {
